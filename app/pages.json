@@ -1,0 +1,302 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F0F2F7",
+        "backgroundColor": "#F0F2F7",
+        "backgroundColorTop": "#F0F2F7",
+        "backgroundColorBottom": "#F0F2F7",
+        "app-plus": {
+          "background": "#F0F2F7",
+          "titleNView": false,
+          "bounce": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#f3f5f9",
+        "backgroundColor": "#f3f5f9",
+        "backgroundColorTop": "#f3f5f9",
+        "backgroundColorBottom": "#f3f5f9",
+        "app-plus": {
+          "background": "#f3f5f9"
+        }
+      }
+    },
+    {
+      "path": "pages/form/form",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "disableScroll": true,
+        "navigationBarBackgroundColor": "#ffffff",
+        "backgroundColor": "#ffffff",
+        "backgroundColorTop": "#ffffff",
+        "backgroundColorBottom": "#ffffff",
+        "app-plus": {
+          "background": "#ffffff"
+        }
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/feedback/feedback",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/guide/guide",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/about/about",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/legal/legal",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/courseCredit/courseCredit",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/courseDetail/courseDetail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#f8fafc",
+        "backgroundColor": "#f8fafc",
+        "backgroundColorTop": "#f8fafc",
+        "backgroundColorBottom": "#f8fafc",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/search/search",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/evaluateManage/evaluateManage",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/evaluateGuide/evaluateGuide",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/collection/collection",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/jwNoticeList/jwNoticeList",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/courseList/courseList",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8FAFC",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#F8FAFC",
+        "backgroundColorBottom": "#F8FAFC"
+      }
+    },
+    {
+      "path": "pages/webview/webview",
+      "style": {
+        "navigationBarTitleText": "公告详情",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#FFFFFF",
+        "backgroundColorBottom": "#F8FAFC",
+        "app-plus": {
+          "titleNView": {
+            "titleColor": "#1E3A8A",
+            "titleSize": "17",
+            "backgroundColor": "#FFFFFF",
+            "backButton": {
+              "color": "#1E3A8A",
+              "fontSize": "28px"
+            },
+            "splitLine": {
+              "color": "#E2E8F0",
+              "height": "1px"
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/jwEnhancedWebview/jwEnhancedWebview",
+      "style": {
+        "navigationBarTitleText": "教务增强试验",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F8FAFC",
+        "backgroundColorTop": "#FFFFFF",
+        "backgroundColorBottom": "#F8FAFC",
+        "app-plus": {
+          "titleNView": {
+            "titleColor": "#1E3A8A",
+            "titleSize": "17",
+            "backgroundColor": "#FFFFFF",
+            "backButton": {
+              "color": "#1E3A8A",
+              "fontSize": "28px"
+            },
+            "splitLine": {
+              "color": "#E2E8F0",
+              "height": "1px"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8FAFC",
+    "backgroundColor": "#F8FAFC",
+    "backgroundColorTop": "#F8FAFC",
+    "backgroundColorBottom": "#F8FAFC",
+    "app-plus": {
+      "background": "#F8FAFC"
+    }
+  },
+  "tabBar": {
+    "color": "#94A3B8",
+    "selectedColor": "#1E3A8A",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "通选课",
+        "iconPath": "static/images/tab/index.png",
+        "selectedIconPath": "static/images/tab/index1.png"
+      },
+      {
+        "pagePath": "pages/form/form",
+        "text": "课程表",
+        "iconPath": "static/images/tab/form.png",
+        "selectedIconPath": "static/images/tab/form1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人中心",
+        "iconPath": "static/images/tab/me.png",
+        "selectedIconPath": "static/images/tab/me1.png"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "custom-nav-bar": "@/components/custom-nav-bar/custom-nav-bar.vue",
+      "app-tab-bar": "@/components/app-tab-bar/app-tab-bar.vue"
+    }
+  },
+  "uniIdRouter": {}
+}

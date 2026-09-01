@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+app/unpackage/
+desktop/dist/
+desktop/release/
+
+# IDE / OS
+.hbuilderx/
+.DS_Store
+Thumbs.db
+*.log
+
+# 本地环境与密钥材料 —— 任何情况下都不要提交
+.env
+.env.*
+*.env
+
+# 签名材料：iOS 证书 / 描述文件 / Android keystore 绝不入库
+*.p12
+*.p8
+*.mobileprovision
+*.cer
+*.pem
+*.jks
+*.keystore
+desktop-secret.key

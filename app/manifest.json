@@ -1,0 +1,96 @@
+{
+    "name" : "林课",
+    "appid" : "__UNI__E50F944",
+    "description" : "查课程评价、看成绩分布、管理课表，专为山东财经大学学生打造的校园课程助手。",
+    "versionName" : "1.0.15",
+    "versionCode" : "117",
+    "transformPx" : false,
+    "app-plus" : {
+        "compatible" : {
+            "ignoreVersion" : true
+        },
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "safearea" : {
+            "background" : "#F0F1F5",
+            "bottom" : {
+                "offset" : "none"
+            }
+        },
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : false,
+            "waiting" : false,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {},
+        "distribute" : {
+            "icons" : {
+                "android" : {
+                    "xxxhdpi" : "static/app-icons/android-xxxhdpi.png",
+                    "xxhdpi" : "static/app-icons/android-xxhdpi.png",
+                    "xhdpi" : "static/app-icons/android-xhdpi.png",
+                    "hdpi" : "static/app-icons/android-hdpi.png",
+                    "mdpi" : "static/app-icons/android-mdpi.png",
+                    "ldpi" : "static/app-icons/android-ldpi.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "app@2x" : "static/app-icons/ios-iphone-app@2x.png",
+                        "app@3x" : "static/app-icons/ios-iphone-app@3x.png",
+                        "spotlight@2x" : "static/app-icons/ios-iphone-spotlight@2x.png",
+                        "spotlight@3x" : "static/app-icons/ios-iphone-spotlight@3x.png",
+                        "settings@2x" : "static/app-icons/ios-iphone-settings@2x.png",
+                        "settings@3x" : "static/app-icons/ios-iphone-settings@3x.png",
+                        "notification@2x" : "static/app-icons/ios-iphone-notification@2x.png",
+                        "notification@3x" : "static/app-icons/ios-iphone-notification@3x.png"
+                    },
+                    "ipad" : {
+                        "app" : "static/app-icons/ios-ipad-app.png",
+                        "app@2x" : "static/app-icons/ios-ipad-app@2x.png",
+                        "proapp@2x" : "static/app-icons/ios-ipad-proapp@2x.png",
+                        "spotlight" : "static/app-icons/ios-ipad-spotlight.png",
+                        "spotlight@2x" : "static/app-icons/ios-ipad-spotlight@2x.png",
+                        "settings" : "static/app-icons/ios-ipad-settings.png",
+                        "settings@2x" : "static/app-icons/ios-ipad-settings@2x.png",
+                        "notification" : "static/app-icons/ios-ipad-notification.png",
+                        "notification@2x" : "static/app-icons/ios-ipad-notification@2x.png"
+                    },
+                    "appstore" : "static/app-icons/ios-appstore.png"
+                }
+            },
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>"
+                ]
+            },
+            "ios" : {
+                "appTransportSecurity" : {
+                    "NSAllowsArbitraryLoads" : false,
+                    "NSExceptionDomains" : {
+                        "jw.sdufe.edu.cn" : {
+                            "NSExceptionAllowsInsecureHTTPLoads" : true,
+                            "NSIncludesSubdomains" : true
+                        }
+                    }
+                },
+                "privacyDescription" : {},
+                "idfa" : false,
+                "dSYMs" : false
+            },
+            "sdkConfigs" : {}
+        },
+        "statusbar" : {
+            "immersed" : "supportedDevice",
+            "style" : "dark",
+            "background" : "transparent"
+        }
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3"
+}

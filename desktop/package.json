@@ -1,0 +1,29 @@
+{
+  "name": "@linke/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently -k -n vite,electron -c cyan,green \"vite --host 127.0.0.1\" \"wait-on tcp:5173 && electron .\"",
+    "build": "vite build",
+    "electron": "electron . --load-dist",
+    "icon:mac": "bash scripts/generate-mac-icon.sh",
+    "sign:mac": "bash scripts/sign-mac-app.sh",
+    "package:mac": "npm run build && npm run icon:mac && electron-builder --config electron-builder.config.cjs --mac dir && npm run sign:mac",
+    "open:mac": "open \"release/mac-arm64/林课桌面端.app\" || open \"release/mac/林课桌面端.app\"",
+    "reopen:mac": "bash scripts/reopen-mac-app.sh",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "vue": "^3.5.28"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "concurrently": "^9.2.1",
+    "electron": "39.8.10",
+    "electron-builder": "^26.0.12",
+    "vite": "^7.2.7",
+    "wait-on": "^9.0.3"
+  }
+}
